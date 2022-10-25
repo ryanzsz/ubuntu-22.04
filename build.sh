@@ -16,4 +16,4 @@ export ALLOW_MISSING_DEPENDENCIES=true
 # export USE_MICROG=true
 # export TARGET_USES_MINI_GAPPS=true
 mka bacon -j8
-# build 4
+# build
