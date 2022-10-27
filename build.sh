@@ -7,9 +7,9 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 source build/envsetup.sh
 lunch lineage_whyred-userdebug
 export TZ=Asia/Jakarta
-export KBUILD_BUILD_USER=ryanzsz
+export KBUILD_BUILD_USER=zacky
 export KBUILD_BUILD_HOST=jenkins
-export BUILD_USERNAME=ryanzsz
+export BUILD_USERNAME=zacky
 export BUILD_HOSTNAME=jenkins
 export ALLOW_MISSING_DEPENDENCIES=true
 export SELINUX_IGNORE_NEVERALLOWS=true
