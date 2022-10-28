@@ -12,8 +12,8 @@ export KBUILD_BUILD_HOST=jenkins
 export BUILD_USERNAME=zacky
 export BUILD_HOSTNAME=jenkins
 export ALLOW_MISSING_DEPENDENCIES=true
-# export SELINUX_IGNORE_NEVERALLOWS=true
+export SELINUX_IGNORE_NEVERALLOWS=true
 # export USE_MICROG=true
 # export TARGET_USES_MINI_GAPPS=true
-mka derp
+mka bacon -j8
 # build
