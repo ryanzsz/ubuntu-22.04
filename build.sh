@@ -11,6 +11,7 @@ source build/envsetup.sh
 export TZ=Asia/Jakarta
 export BUILD_USERNAME=rosy
 export BUILD_HOSTNAME=nfsproject
+export WITH_GAPPS=true
 lunch spark_rosy-userdebug
 mkfifo reading # Jangan di Hapus
 tee "${BUILDLOG}" < reading & # Jangan di Hapus
