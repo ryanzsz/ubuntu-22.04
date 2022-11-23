@@ -4,7 +4,7 @@ git clone https://github.com/IQ-7/local_manifest --depth 1 -b rice-13-github .re
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 
 # build rom
-source $CIRRUS_WORKING_DIR/script/config
+source $CIRRUS_WORKING_DIR/config
 timeStart
 
 source build/envsetup.sh
