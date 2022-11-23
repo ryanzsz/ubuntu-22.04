@@ -37,3 +37,5 @@ task:
 
   Upload-build_script:
      - bash -c "$(curl -sL https://raw.githubusercontent.com/NFS-Project/cirrus-ci-skrip/master/rom/ziping.sh)"
+
+# end
