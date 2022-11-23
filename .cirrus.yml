@@ -7,7 +7,7 @@ env:
 task:
   name: "Building"
   skip: $CIRRUS_BRANCH == 'master'
-  only_if: $CIRRUS_REPO_OWNER == 'IQ-7'
+  only_if: $CIRRUS_REPO_OWNER == 'IQ7'
   timeout_in: 120m
   container:
     image: zacky46/home:22.04
