@@ -7,12 +7,10 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 source build/envsetup.sh
 lunch nad_ginkgo-userdebug
 export TZ=Asia/Jakarta
-export KBUILD_BUILD_USER=zacky
-export KBUILD_BUILD_HOST=jenkins
 export BUILD_USERNAME=zacky
 export BUILD_HOSTNAME=jenkins
 export ALLOW_MISSING_DEPENDENCIES=true
-export SELINUX_IGNORE_NEVERALLOWS=true
+# export SELINUX_IGNORE_NEVERALLOWS=true
 # export USE_MICROG=true
 # export TARGET_USES_MINI_GAPPS=true
 make nad -j8
