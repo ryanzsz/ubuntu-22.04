@@ -11,6 +11,7 @@ source build/envsetup.sh
 export TZ=Asia/Jakarta
 export BUILD_USERNAME=zacky
 export BUILD_HOSTNAME=xiaomi
+export DISABLE_LTO=true
 lunch nad_ginkgo-userdebug
 mkfifo reading # Jangan di Hapus
 tee "${BUILDLOG}" < reading & # Jangan di Hapus
