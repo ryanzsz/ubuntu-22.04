@@ -18,7 +18,7 @@ task:
 
   Load-Ccache_background_script:
      - bash -c "$(curl -sL https://raw.githubusercontent.com/NFS-Project/cirrus-ci-skrip/master/rom/load_ccache.sh)"
-
+     
   Sync-rom_script:
      - bash -c "$(curl -sL https://raw.githubusercontent.com/NFS-Project/cirrus-ci-skrip/master/rom/sync.sh)"
      
