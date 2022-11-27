@@ -14,4 +14,4 @@ export ALLOW_MISSING_DEPENDENCIES=true
 # export USE_MICROG=true
 # export TARGET_USES_MINI_GAPPS=true
 mka nad -j8
-# build 
+# build
