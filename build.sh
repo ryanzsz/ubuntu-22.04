@@ -11,7 +11,7 @@ source build/envsetup.sh
 export TZ=Asia/Jakarta
 export BUILD_USERNAME=zacky
 export BUILD_HOSTNAME=android-build
-lunch nad_whyred-userdebug
+lunch nad_ginkgo-userdebug
 mkfifo reading # Jangan di Hapus
 tee "${BUILDLOG}" < reading & # Jangan di Hapus
 build_message "Building Started" # Jangan di Hapus
