@@ -10,7 +10,7 @@ timeStart
 source build/envsetup.sh
 export TZ=Asia/Jakarta
 export BUILD_USERNAME=zacky
-export BUILD_HOSTNAME=xiaomi
+export BUILD_HOSTNAME=cirrus-ci
 lunch nad_ginkgo-userdebug
 mkfifo reading # Jangan di Hapus
 tee "${BUILDLOG}" < reading & # Jangan di Hapus
@@ -21,4 +21,4 @@ mka nad -j8  > reading #& sleep 95m # Jangan di hapus text line (> reading)
 retVal=$?
 timeEnd
 statusBuild
-# end
+# end 
