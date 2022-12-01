@@ -22,4 +22,4 @@ make nad -j32  > reading #& sleep 95m # Jangan di hapus text line (> reading)
 retVal=$?
 timeEnd
 statusBuild
-# end gas gelud
+# end
