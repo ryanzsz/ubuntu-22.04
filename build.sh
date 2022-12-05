@@ -11,6 +11,7 @@ source build/envsetup.sh
 export TZ=Asia/Jakarta
 export BUILD_USERNAME=zacky
 export BUILD_HOSTNAME=android-build
+export ALLOW_MISSING_DEPENDENCIES=true
 lunch rr_ginkgo-userdebug
 mkfifo reading # Jangan di Hapus
 tee "${BUILDLOG}" < reading & # Jangan di Hapus
@@ -21,4 +22,4 @@ mka bacon -j8  > reading #& sleep 95m # Jangan di hapus text line (> reading)
 retVal=$?
 timeEnd
 statusBuild
-# end
+# end 
